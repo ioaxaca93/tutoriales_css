@@ -1,0 +1,24 @@
+body{
+	font-size: 16px;
+}
+
+.em{
+	font-size: 2em; /*toma como base la anchura de la M de la fuente utilizada*/
+}
+
+.ex{
+	font-size: .5ex;/*toma como base la anchura de la x de la fuente utilizada*/
+}
+
+div p{
+	font-size: 2em;
+}
+
+div p.rem{
+	font-size: 1rem; /* toma lo del body*/
+}
+
+/*
+Las medidas absolutas son:
+	in, cm, mm, pt (0.35mm), pc (picas = 12pt = 4.23mm)
+*/

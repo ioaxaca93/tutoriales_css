@@ -1,0 +1,18 @@
+h2[title]{
+	color: rgb(100,0,0);
+}
+h2[title="adios"]{
+	font-size: 30px;
+}
+
+h2[title ~="x"]{
+	font-size: 10px !important;
+}
+
+h2[title ~="valorx"]{
+	font-size: 38px;
+}
+
+p[ lang |= "es"]{
+	color: rgb(0,0,100);
+}

@@ -1,0 +1,13 @@
+
+
+p+p{ /*adayacentes (tiene que esta un elemento seguido de otro)*/
+	font-weight: bolder;
+}
+
+div > p { /*hijos directos (tienen q ser hijos directos no hijos de los hijos) no confundir con div p (no necesariamente tienn q ser hijos directos con que esten dentro)*/
+	color: rgb(100,100,100);
+}
+
+p ~  p { /*hermanos no importa q no sean adyacentes tienen q ser hermanos*/
+  color: rgb(125,14,87);
+}
