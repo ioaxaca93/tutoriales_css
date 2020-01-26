@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Tamaño de un elemento</title>
+	<link rel="stylesheet" type="text/css" href="../normalize.css">
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 50%;
+			height: 100px;
+			border: 1px solid black;
+		}
+		div.dimen{
+			min-width: 400px;
+			max-width: 500px;
+			margin: 20px 50px 100px 30px; /* al darle 2 toma el primer valor para top y bottom y el segundo para rigth y left((pueden combianrse las unidades)*/
+			padding: 5px 10px; /* lo mismo con los padding*/
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<div class="dimen"></div>
+</body>
+</html>
